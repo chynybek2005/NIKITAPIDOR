@@ -11,5 +11,7 @@ a {
 
 button {
     background: none;
-    border: none;
+    border: 1px solid teal;
+    height: 50px;
+    width: 150px;
 }

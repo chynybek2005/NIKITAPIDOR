@@ -1,6 +1,6 @@
 const initialState = {
     user: 'KARIM GAY',
-    cash: 100
+    cash: 5000
 }
 
 const action = {

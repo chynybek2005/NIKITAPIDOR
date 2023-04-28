@@ -11,7 +11,24 @@ const Karim = () => {
             <h1>{GoldCardState.cash}</h1>
 
 
-            <button onClick={() => dispatch({type: "ADD CASH", payload: Number(prompt('поплните баланс блять'))})}>+ cash</button>
+            <button onClick={() => dispatch({
+                type: "ADD CASH",
+                 payload: Number(prompt('попoлните баланс блять'))})}
+                 >
+                    {" "}
+                    + cash{" "}
+                    </button>
+
+
+                    <button onClick={() => dispatch({
+                type: "REMOVE CASH",
+                 payload: Number(prompt('снять баланс блять'))})}
+                 >
+                    {" "}
+                    - cash{" "}
+                    </button>
+
+                    
         </div>
     );
 };
